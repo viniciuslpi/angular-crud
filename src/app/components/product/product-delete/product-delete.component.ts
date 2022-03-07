@@ -2,6 +2,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { ProductService } from './../product.service';
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../product.model';
+import { Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-product-delete',
